@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+    <a href="{% url 'vista2' %}">Click</a>
+
+    <ul>
+        {% for municipio in municipios %}
+        <li>{{ municipio.codigo }} / {{ municipio.nombre }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
