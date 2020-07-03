@@ -1,0 +1,3 @@
+https://docs.hektorprofe.net/django/web-empresarial/personalizando-panel-administrador-parte-2/
+
+https://www.c-sharpcorner.com/article/onion-architecture-in-asp-net-core-mvc/

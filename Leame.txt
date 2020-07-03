@@ -1,0 +1,22 @@
+postgres
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'ThothDjango',
+
+        'USER': 'postgres',
+
+        'PASSWORD': 'Juan2020.',
+
+        'HOST': 'localhost',
+
+        'PORT': '5432',
+    }
+}
+
+Django
+User: admin
+correo: reygue28@gmail.com
+pass: Juan2020.
