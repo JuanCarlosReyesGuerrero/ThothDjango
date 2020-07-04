@@ -10,7 +10,7 @@ def myfirstview(request):
         'name': 'juan',
         'idiomas': Idioma.objects.all()
     }
-    return render(request, 'index.html', data)
+    return render(request, 'home.html', data)
 
 def mysecondview(request):
     data = {
